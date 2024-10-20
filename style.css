@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('cloud-forest-landscape.jpg'); */
+    background:url('beautiful-view-greenery-bridge-forest-perfect-background.jpg') ;
+    background-size: cover;
+}
+
+.show_popup_button
+{
+    position: absolute;
+    bottom: 50px;
+    left: 50px; 
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup_container
+{
+    height: 100vh;
+    width:100vw ;
+    background-color: rgb(20, 6, 6, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popup{
+    width: 400px;
+padding: 50px;
+background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.ok_button
+{
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+
+.cancle_button
+{
+    padding: 5px 20px;
+}
+
+.show{
+    display: flex;
+}
+
